@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { TopComponent } from "./top/topo.component";
 import { PanelComponent } from './panel/panel.component';
 import { AttemptsComponent } from './attempts/attempts.component';
+import { ProgressComponent } from './progress/progress.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopComponent,
     PanelComponent,
-    AttemptsComponent
+    AttemptsComponent,
+    ProgressComponent
   ],
   imports: [
     BrowserModule
