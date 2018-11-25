@@ -7,5 +7,5 @@ import { Component } from "@angular/core"
 })
 
 export class TopComponent {
-
+  public titulo: string = 'Aprendendo Inglês'
 }
